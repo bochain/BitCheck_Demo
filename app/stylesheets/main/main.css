@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+ul,
+li {
+    list-style: none
+}
+
+.tabClick {
+    position: relative;
+    z-index: 10000;
+    /* background: #f3f3f3; */
+    overflow: hidden
+}
+
+.tabClick li {
+    height: 40px;
+    line-height: 40px;
+    width: 25%;
+    float: left;
+    text-align: center
+}
+
+.tabClick li.active {
+    color: white;
+    transition: 0.1s;
+    font-weight: bold;
+    /* background: rgb(5, 162, 224) */
+    box-shadow: -5px -5px 40px 5px white inset;
+}
+
+.tabCon {
+    overflow: hidden
+}
+
+.tabBox {
+    position: relative
+}
+
+.tabList {
+    word-break: break-all;
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-family: "Arial Black";
+}
+
+.theNumber,
+.cartNUmber {
+    margin-top: 50px;
+    outline: none;
+    font-size:20px;
+    height: 40px;
+    width: 100%;
+    margin-top:200px;
+    margin: 200px auto 60px;
+    color: white;
+    
+}
+
+.cartNUmber {
+    margin-top: 30px;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 40px;
+    margin: 50px auto 50px;
+    font-weight: bold;
+    background: white;
+    box-shadow: -5px -5px 60px 5px white;
+    cursor: pointer;
+}
+
+.inputbox{
+    border-radius: 40px;
+    height: 25px;
+    width: 35%;
+}
+
+.lineBorder {
+    height: 2px;
+    overflow: hidden;
+    /* border-bottom: 1px solid rgb(5, 162, 224); */
+    background: #f3f3f3
+}
+
+.lineDiv {
+    background: rgb(5, 162, 224);
+    height: 2px;
+    width: 25%;
+}
+
+table {
+    /*样式实现表格居中*/
+    border-collapse: collapse;
+    width: 90%;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+table td {
+    width: 33%;
+    height: 40px;
+    color:white;
+}
+
+table .tableTop {
+    background: lightsteelblue;
+    height: 50px;
+}
+
+.MyOwn {
+    width: 70%;
+    margin: 30px auto 0px;
+}
+
+.MyOwn>div {
+    margin-bottom: 20px;
+}
+
+.MyOwn .one {
+    width: 76%;
+    height: 120px;
+    margin: 0 auto 20px;
+    background: red;
+}
+
+.MyOwn .two {
+    font-size: 22px;
+    font-weight: 800;
+    color: rgba(0, 0, 255, 0.774);
+    margin-bottom: 2px;
+}
+
+.four p {
+    margin-bottom: 4px;
+}
+
+.tabList {
+    display: none;
+}
+
+.tabListOne {
+    display: block;
+}
